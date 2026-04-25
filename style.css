@@ -1,0 +1,45 @@
+html, body {
+  overflow-x: hidden;
+}
+.service__slider-content {
+  width: 100%;
+}
+
+/* Slider container */
+.service-slider {
+  width: 100%;
+  min-height: 50px;
+}
+
+.service__slider-content .slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.service__slider-content .slick-slide img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Hero dashboard image - ensure visibility */
+
+/* //reponsive */
+
+@media screen and (max-width: 640px) {
+  .titile_center {
+    font-size: 2.5rem !important;
+
+    line-height: 1.1;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    min-width: 0;
+
+  }
+  .button_mobile{
+     flex-direction: column;
+  }
+}
+
+
